@@ -107,7 +107,7 @@ If you want to run a DHCP server as well you need to add the following lines:
 5.0 Run the following (or your modified version) by copy / pasting the entire set.	   
    
     ```sh
-    podman run -d \ 
+    podman run -d \
         --network dns \
         --restart always \
         --name pihole \
